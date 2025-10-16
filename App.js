@@ -26,6 +26,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#f6f7fb',
     paddingHorizontal: 20,
+    
   },
   header: {
     alignItems: 'center',
@@ -43,10 +44,14 @@ const styles = StyleSheet.create({
     letterSpacing: 1,
   },
   info: {
-    alignItems: 'center',
+    alignItems: 'flex-start',
+    width: 280,
+    alignSelf: 'center',
     gap: 8,
+    paddingLeft: 0,
   },
   label: {
+    
     fontSize: 16,
     color: '#6b7280',
     fontWeight: '500',
